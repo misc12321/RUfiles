@@ -401,8 +401,7 @@ table, td, th, tr {border: none;}
 }
 }
 
-@media only screen and (max-width: 360px){}
-rangerup.css:518
+@media only screen and (max-width: 360px){
 .mobileCustom {
     color: rgb(109, 109, 109);
     font-family: Lato;

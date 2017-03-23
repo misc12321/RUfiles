@@ -285,9 +285,7 @@ table, td, th, tr {border: none;}
 /* end light-view css*/
 
 @media(min-width:769px){
-    .mobileCustom {
-    display: none;
-}
+    
   #CartContentsAA {
     display: none;
     font-size: 11px;
@@ -374,7 +372,10 @@ table, td, th, tr {border: none;}
   
 }
 
-(max-width: 768px) and (min-width: 361px){
+@media (max-width: 768px) and (min-width: 361px){
+    .mobileCustom {
+    display: none;
+}
 .customLeft {
     width: 80%;
     margin: 0px auto;

@@ -1,4 +1,4 @@
-border, td, th, tr {border: none;}
+table, td, th, tr {border: none;}
 #RightColumnNL {
     max-width: 1200px;
     width: 100%;

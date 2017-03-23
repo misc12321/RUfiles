@@ -285,7 +285,9 @@ table, td, th, tr {border: none;}
 /* end light-view css*/
 
 @media(min-width:769px){
-    
+     .mobileCustom {
+    display: none;
+}
   #CartContentsAA {
     display: none;
     font-size: 11px;

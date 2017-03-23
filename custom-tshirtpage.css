@@ -383,14 +383,14 @@ table, td, th, tr {border: none;}
     width: 80%;
     margin: 0px auto;
 }
-  customRepeat {
+  .customRepeat {
     margin-right: 10%;
     background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-repeat.jpg) repeat-y scroll 0px 0px transparent;
     background-size: contain;
     float: left;
     width: 40%;
 }
-  customTop {
+  .customTop {
     background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-top.jpg) no-repeat scroll 0px 0px transparent;
     background-size: contain;
 }
@@ -401,7 +401,7 @@ table, td, th, tr {border: none;}
 }
 }
 
-@media only screen and (max-width: 360px){
+@media (max-width: 360px){
 .mobileCustom {
     color: rgb(109, 109, 109);
     font-family: Lato;

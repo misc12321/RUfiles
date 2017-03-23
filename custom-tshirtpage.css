@@ -414,4 +414,17 @@ table, td, th, tr {border: none;}
 .nonMobile {
     display: none;
 }
+.visitSite {
+    color: rgb(56, 56, 56);
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.mobileCustom p {
+    font-size: 0.9em;
+}
+.visitSite a {
+    color: #f42f04;
+    text-decoration: none;
+}
 }

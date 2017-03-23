@@ -1,0 +1,371 @@
+#RightColumnNL {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    background: transparent;
+    overflow: hidden;
+}
+.eyTitle {
+    width: 100%;
+    font: 44px/44px 'Abel', sans-serif;
+    color: #000000;
+    border-bottom: 4px double #8D8E7E;
+    padding: 0px;
+    margin: 0 auto 2%;
+}
+.nonMobile {
+    margin-bottom: 20px;
+}
+#CartContentsAA {
+    top: -57px;
+    right: 73px;
+}
+.sectionText {
+    font-family: Lato;
+    font-size: 0.9em;
+    margin: 0px auto;
+    width: 94%;
+    padding: 20px 0;
+}
+.sectionText {
+    font: 16px 'Titillium Web Light', sans-serif;
+    text-align: center;
+}
+.customTitle {
+    color: rgb(244, 45, 3);
+    font-family: Lato;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.customTable {
+    width: 94%;
+    margin: 0 auto;
+}
+.customTable td {
+    padding: 5px 0;
+}
+.customStyle {
+    font-size: 0.7em;
+}
+.customTD {
+    color: rgb(68, 68, 68);
+    font-weight: 700;
+    font-size: 0.8em;
+    width: 30%;
+}
+.customInput {
+    border: 1px solid rgb(200, 196, 193);
+    height: 24px;
+    width: 94%;
+    line-height: 24px;
+    padding: 0 5px;
+}
+.customInput.required {
+    float: none;
+    margin: 0px;
+}
+.customTextarea {
+    padding: 5px;
+    border: 1px solid rgb(200, 196, 193);
+    height: 60px;
+    width: 94%;
+    resize: none;
+}
+.customSubTD {
+    font-size: 0.7em;
+}
+.customSleeve {
+    margin: 0px 3px 15px 0px;
+}
+.customSleeve.required {
+    float: none;
+    margin: 0px 3px 15px 0px;
+}
+.requiredText {
+    float: left;
+    font: 11px arial;
+    margin-left: 101px;
+}
+.customSubTD .requiredText {
+    margin-left: 0;
+    float: none;
+}
+.customSteps {
+    margin: 30px 0 40px;
+}
+.customProcess {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-sp-fp-dots.png) repeat-x scroll 0px bottom transparent;
+    width: 94%;
+    margin: 10px 0px;
+    padding-bottom: 5px;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 1.1em;
+    color: rgb(123, 113, 104);
+}
+.customProcesses {
+    list-style: none;
+    color: rgb(122, 112, 102);
+    font-size: 0.9em;
+    font-family: Lato;
+}
+.customProcesses li {
+    padding: 5px 0px;
+}
+.customProcesses b {
+    color: #000;
+}
+.customBottom {
+    color: rgb(156, 147, 138);
+    font-family: Lato;
+}
+.customCapabilities {
+    padding: 0 20px 20px;
+}
+.customRightTitle {
+    color: rgb(142, 133, 124);
+    font-weight: 700;
+    font-family: Lato;
+    margin-bottom: 5px;
+}
+.customBottom p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+.customMinimums {
+    border-top: 1px solid rgb(229, 222, 212);
+    padding: 15px 20px;
+}
+.customRightTitle {
+    color: rgb(142, 133, 124);
+    font-weight: 700;
+    font-family: Lato;
+    margin-bottom: 5px;
+}
+.customPricing {
+    border-top: 1px solid rgb(229, 222, 212);
+    padding: 15px 20px;
+}
+.customFirst {
+    float: left;
+    width: 50%;
+}
+.pastWork img {
+    width: 100%;
+    height: auto;
+}
+.customSecond {
+    float: left;
+    width: 50%;
+}
+.clearBoth, .cb {
+    clear: both;
+}
+/*light-view css*/
+#scWrapper {
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+    height: 800px;
+    cursor: hand;
+}
+#scWrapper {
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    opacity: 0.75;
+    background: #000000;
+}
+#scImgBox {
+    font: 11px normal "Tahoma", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    border: 10px solid #CACACA;
+    background: #CACACA;
+}
+#scImgBox {
+    //display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    text-align: center;
+}
+.relativePos {
+    position: relative;
+}
+#scImgBox .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#scImgBox .close {
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 0 5px 1px 5px;
+    margin: -15px -15px 0 0;
+    text-decoration: none;
+    background: #3F3F3F;
+}
+#scImgBox-mainImg {
+    background: url(loading.gif) #FFFFFF no-repeat center center;
+    text-align: center;
+}
+#scImgBox-insetPreview {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: none;
+    z-index: 200;
+}
+#scImgBox-insets {
+    position: relative;
+    left: 0;
+    text-align: left;
+    clear: both;
+}
+#scImgBox-insets {
+    padding: 10px 75px 0 0;
+    background: #CACACA;
+}
+#scImgBox-insets a {
+    font: bold 14px/18px Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    padding: 0 5px 1px 5px;
+    border: 1px solid #FFFFFF;
+    text-decoration: none;
+    margin: 0 5px 0 0;
+    background: #3F3F3F;
+}
+#scImgBox-insets .absClose {
+    position: absolute;
+    right: 0;
+}
+#scImgBox-insets .absClose {
+    font: normal 11px/15px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+#lightview {
+    background-color: rgb(255, 255, 255);
+    height: 690px;
+    left: 20%;
+    position: fixed;
+    top: 5%;
+    width: 740px;
+}
+#lightview {
+    display: none;
+}
+#lightview {
+    z-index: 99;
+}
+#lightedClose {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-close.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 36px;
+    position: absolute;
+    right: -18px;
+    top: -18px;
+    width: 36px;
+}
+#lightedImg {
+    height: 540px;
+    width: 100%;
+    overflow: hidden;
+}
+#lightedInsets {
+    margin: 0 auto;
+    width: 85%;
+}
+
+/* end light-view css*/
+
+@media(min-width:769px){
+  #CartContentsAA {
+    display: none;
+    font-size: 11px;
+    font-family: arial;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    right: 22px;
+    top: 100px;
+    position: absolute;
+    border: 2px solid #f32e01;
+    z-index: 2000 !important;
+    padding: 0 0 10px;
+}
+  #fcArrow {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-fc-arrow.png) no-repeat scroll 0px 0px transparent;
+    height: 15px;
+    position: absolute;
+    top: -15px;
+    width: 26px;
+    right: 40px;
+}
+  #fcClose {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+}
+  .customLeft {
+    width: 65%;
+    margin: 0px 30px;
+    float: left;
+}
+  .customRight {
+    width: 25%;
+    float: left;
+}
+  .customRepeat {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-repeat.jpg) repeat-y scroll 0px 0px transparent;
+    float: left;
+    width: 230px;
+}
+  .customRepeat {
+    float: none;
+}
+  .customTop {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-top.jpg) no-repeat scroll 0px 0px transparent;
+}
+  .customBottom {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-bottom.jpg) no-repeat scroll 0px bottom transparent;
+    padding: 20px 0px 30px;
+}
+  .pastWork {
+    margin-top: 25px;
+}
+  
+/* light view */
+#lightview {
+    height: 690px;
+    background-color: rgb(255, 255, 255);
+    width: 740px;
+    top: 5%;
+    position: fixed;
+    left: 20%;
+}
+  #lightedClose {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-close.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 36px;
+    width: 36px;
+    position: absolute;
+    top: -18px;
+    right: -18px;
+}
+  #lightedImg {
+    width: 100%;
+    height: 560px;
+}
+  #lightedInsets {
+    margin: 0px auto;
+    width: 85%;
+}
+
+/* end light view */  
+  
+}

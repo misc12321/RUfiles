@@ -285,6 +285,9 @@ table, td, th, tr {border: none;}
 /* end light-view css*/
 
 @media(min-width:769px){
+    .mobileCustom {
+    display: none;
+}
   #CartContentsAA {
     display: none;
     font-size: 11px;
@@ -369,4 +372,41 @@ table, td, th, tr {border: none;}
 
 /* end light view */  
   
+}
+
+(max-width: 768px) and (min-width: 361px){
+.customLeft {
+    width: 80%;
+    margin: 0px auto;
+}
+  .customRight {
+    width: 80%;
+    margin: 0px auto;
+}
+  customRepeat {
+    margin-right: 10%;
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-repeat.jpg) repeat-y scroll 0px 0px transparent;
+    background-size: contain;
+    float: left;
+    width: 40%;
+}
+  customTop {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-top.jpg) no-repeat scroll 0px 0px transparent;
+    background-size: contain;
+}
+  .customBottom {
+    background: url(http://lib.store.yahoo.net/lib/yhst-50863389838911/ey-custom-right-bottom.jpg) no-repeat scroll 0px bottom transparent;
+    padding: 20px 0px 30px;
+    background-size: contain;
+}
+}
+
+@media only screen and (max-width: 360px){}
+rangerup.css:518
+.mobileCustom {
+    color: rgb(109, 109, 109);
+    font-family: Lato;
+    text-align: center;
+    margin-top: 20px;
+}
 }

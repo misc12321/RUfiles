@@ -411,4 +411,7 @@ table, td, th, tr {border: none;}
     text-align: center;
     margin-top: 20px;
 }
+.nonMobile {
+    display: none;
+}
 }
